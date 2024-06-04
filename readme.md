@@ -105,6 +105,10 @@ This gives us O(1) lookups for any given data point, the sum and the timestamp.
   URLs are versioned so client devices can be supported by different versions of the API
 - structure
   all one file since this is a simple enough project.
+- ci/cd
+  auto build this binary + deploy to XXXX
+- build scripts
+  make, [your build tool of choice here], ....
 - models + controllers  
   break out separate models/controllers into their own folder
   fully typed output for controller input/output
